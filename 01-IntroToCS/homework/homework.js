@@ -12,7 +12,6 @@ function BinarioADecimal(num) {
 function DecimalABinario(num) {
   // tu codigo aca
   let bin = "";
-  let rem, i = 1;
   while (num > 0) {
       bin = (num % 2) + bin;
       num = Math.floor(num / 2);
